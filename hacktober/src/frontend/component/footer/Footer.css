@@ -1,0 +1,9 @@
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(57, 55, 55);
+    color: azure;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }

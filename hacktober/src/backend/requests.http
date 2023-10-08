@@ -1,0 +1,53 @@
+POST http://localhost:3000/patient-api/register-patient
+Content-Type: application/json
+
+{
+    "username":"satwik",
+    "email":"hii@fmail.com",
+    "number":"987654321",
+    "password":"abcd123"
+}
+###
+
+POST http://localhost:3000/patient-api/login-patient
+Content-Type: application/json
+
+{
+    "username":"satwik",
+    "password":"abcd123"
+}
+
+###
+
+POST  http://localhost:3000/appointment-api/book-appointment
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhdHdpayIsImlhdCI6MTY5NjczNjg1MSwiZXhwIjoxNjk3MzQxNjUxfQ.NVmzVGTPdR-HBaqb4FpIm_rtpAyLgWq2CLmobh5YTYU
+Content-Type: application/json
+
+{
+    "patient_username":"satwik",
+    "doctor_username":"keerthan",
+    "date":"110703"
+}
+
+###
+
+POST http://localhost:3000/doctor-api/register-doctor
+Content-Type: application/json
+
+{
+    "username":"keerthan",
+    "password":"abcd23"
+}
+
+###
+POST http://localhost:3000/doctor-api/login-doctor
+Content-Type: application/json
+
+{
+    "username":"Gnishanth",
+    "password":"abcd23"
+}
+
+###
+GET  http://localhost:3000/appointment-api/get-doctors-appointments/keerthan
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkduaXNoYW50aCIsImlhdCI6MTY5NjczNjk4MywiZXhwIjoxNjk3MzQxNzgzfQ.QzB-B1uKPw1Uors9AaliEqjG4NOrS9vRFBguWNW6_oU

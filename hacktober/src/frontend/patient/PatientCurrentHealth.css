@@ -1,0 +1,20 @@
+/* PatientCurrentHealth.css */
+.health-card {
+    border: 2px solid #007bff; /* Blue border for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .health-item {
+    padding: 10px; /* Padding for list items */
+  }
+  
+  .file-link {
+    color: #007bff; /* Blue color for file links */
+    text-decoration: none; /* Remove underlines */
+    margin-right: 10px; /* Add spacing between file links */
+  }
+  
+  .file-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
