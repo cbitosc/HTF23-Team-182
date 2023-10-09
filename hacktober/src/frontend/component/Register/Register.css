@@ -1,0 +1,10 @@
+.link-like {
+    color: #007bff;
+    cursor: pointer; 
+    transition: color 0.2s; 
+    &:hover {
+      color: #2256b3; 
+    }
+  }
+
+

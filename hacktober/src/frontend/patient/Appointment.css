@@ -1,0 +1,9 @@
+.doctor-list{
+    color: #007bff;
+    cursor: pointer; 
+    background-color: red;
+    transition: color 0.2s; 
+    &:hover {
+      color: #2256b3; 
+    }
+  }
